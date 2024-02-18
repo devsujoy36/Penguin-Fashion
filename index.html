@@ -1,27 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tailwind css</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <title>Penguin Fashion</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .font-bebas{
+            font-family: "Bebas Neue", sans-serif;
+        }
+    </style>
 </head>
-<body class="bg-gray-500">
-    <header>
-        <nav>
 
+<body class="">
+    <header class="bg-[#FFFBF0] px-32 py-20">
+        <!-- nav section start here  -->
+        <nav class="flex justify-around items-center ">
+            <div class="text-3xl ">Penguin Fashion</div>
+            <div class="flex gap-4 ">
+                <a class="" href="">Home</a>
+                <a class="" href="">Product</a>
+                <a class="" href="">About Us</a>
+                <a class="" href="">Contact Us</a>
+            </div>
         </nav>
-        <div class="banner">
 
+        <!--banner section start here-->
+        <div class="flex flex-col md:flex-row justify-between items-center">
+            <div class="space-y-3">
+                <h1 class="text-7xl uppercase text-[#363958] font-bebas ">
+                    <span class="text-[#FABE4C]">Be the Penguins</span> <br>
+                    of Winter
+                </h1>
+                <p class="">Lorem Ipsum is simply dummy text of the printing
+                    and typesetting industry.</p>
+                <button
+                    class="flex justify-center items-center py-4 px-9 rounded-lg uppercase text-white font-medium bg-gradient-to-r from-[#a4bc46] to-[#85a019]">
+                    <span class="material-symbols-outlined">
+                        shopping_cart
+                    </span>
+                    Buy Now</button>
+            </div>
+            <div>
+                <img src="images/model.png" alt="">
+            </div>
         </div>
     </header>
+
+
+
+
+
+
+
+
+
+
+
 
     <main>
 
     </main>
 
     <footer>
-        
+
     </footer>
 </body>
+
 </html>
